@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+html{
+    scroll-behavior: smooth;
+}
+body{
+    overflow-x: hidden;
+	text-decoration: none; 
+} 
+.navbar{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(8, 0, 46);
+    color: white;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.1);
+}
+.nav-item a:hover{
+    border-bottom: 3px solid white;
+}
+#about{
+    font-family: 'Raleway', sans-serif;
+    background-image:-webkit-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../konusarakogren/images/istanbul-vapur.jpg);
+    background-image:-moz-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../konusarakogren/images/istanbul-vapur.jpg);
+    background-image:-o-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../konusarakogren/images/istanbul-vapur.jpg);
+    background-image:-ms-linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../konusarakogren/images/istanbul-vapur.jpg);
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url(../konusarakogren/images/istanbul-vapur.jpg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: 50%;
+}
+.container{
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+.hakkimda{
+    color:rgb(207, 207, 207);
+}
+.isler, .yorumlar, .iletisim{
+    color:rgb(43, 43, 43);
+}
+@media only screen and (min-width:1200px){
+    .hakkimda, .isler, .yorumlar, .iletisim{
+        font-size: 3rem;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){ 
+    .hakkimda, .isler, .yorumlar, .iletisim{
+        font-size: 2.8rem;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){ 
+    .hakkimda, .isler, .yorumlar, .iletisim{
+        font-size: 2.6rem;
+    }
+} 
+@media only screen and (min-width:576px) and (max-width:767px){ 
+    .hakkimda, .isler, .yorumlar, .iletisim{
+        font-size: 2.4rem;
+    }
+} 
+@media only screen and (max-width:575px){ 
+    .hakkimda, .isler, .yorumlar, .iletisim{
+        font-size: 2.2rem;
+    }
+}
+.about-header{
+    text-align: center;
+    color: rgb(207, 207, 207);
+}
+.about-paragraph{
+    color: white;
+}
+#projects{
+    font-family: 'Raleway', sans-serif;
+    background: rgb(238, 238, 238);
+}
+#comments{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(213, 247, 252);
+}
+#contact{
+    font-family: 'Raleway', sans-serif;
+    background-color: rgb(182, 255, 163);
+}
+#contact .social{
+    color: #212529;
+}
+#contact .social:hover{
+    transform: scale(1.5);
+	transform-duration: 300ms;
+}
+.profile-photo{
+    background: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+}
+@media only screen and (min-width:1200px){
+    .profile-photo{
+        width: 300px;
+        height: 400px;
+    }
+}
+@media only screen and (min-width:992px) and (max-width:1199px){ 
+    .profile-photo{
+        width: 280px;
+        height: 380px;
+    }
+}
+@media only screen and (min-width:768px) and (max-width:991px){ 
+	.profile-photo{
+        width: 260px;
+        height: 360px;
+    }
+} 
+@media only screen and (min-width:576px) and (max-width:767px){ 
+	.profile-photo{
+        width: 240px;
+        height: 340px;
+    }
+} 
+@media only screen and (max-width:575px){ 
+	.profile-photo{
+        width: 220px;
+        height: 320px;
+    }
+}
+footer{
+    font-family: 'Raleway', sans-serif;
+}
+.footer-text{
+    color: white;
+}
+footer i{
+    color: white;
+}
+footer i:hover{
+    color: rgb(255, 149, 149);
+}
